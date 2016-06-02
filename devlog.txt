@@ -1,0 +1,20 @@
+Nightmare Park - Under development since 11/23/04
+
+Notes:
+
+For some reason, VBA 1.7.2 does sprite mosaic incorrectly. Earlier versions had it right though.
+
+Change the timer countdown method in the make_menu funtion in menu.h. With the current method,
+the speed differs from emu to emu.
+
+With the Boycott Advanced emulator, if you get a gameover then replay the game without reseting, the
+menu system is all screwed up. Also with Boycott, the WaitTime function needs to be rewritten.
+EX. The "GANG OF GHOSTS" message doesnt stay on the screen for long enough.
+
+Dont forget to take out the debug code in gm_gameboard.h
+
+Credits:
+
+Special Thanks to tepples http://forum.gbadev.org/viewtopic.php?t=4487
+
+Dovoto for his PCX->GBA program
